@@ -1,0 +1,62 @@
+#intro{
+    background-image: url("https://img.freepik.com/fotos-gratis/imagem-de-objetos-de-engenharia-na-visao-superior-do-local-de-trabalho-conceito-de-construcao-ferramentas-de-engenharia-tom-padrao-de-filtro-retroiluminado-foco-suave-foco-seletivo_1418-469.jpg?w=2000");
+    height: 100vh;
+}
+
+#intro .intro-wrapper{
+    height: 100vh;
+    background-color: rgba(219, 219, 219, 0.719);
+    padding: 20px;
+}
+
+.intro-container{
+    margin: auto;
+    padding-top: 4rem;
+}
+
+.intro-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+    padding-top: 2rem;
+
+}
+
+.intro-logo{
+   width: 250px;
+}
+
+.intro-logo img{
+    width: 100%;
+    
+ }
+
+.intro-titulo h1{
+   font-size: 30px;
+   padding-top: 10px;
+   font-family: 'Paytone One', sans-serif;
+}
+
+.intro-subtitulo{
+    padding-top: 10px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 23px;
+
+}
+
+.intro-btns{
+    padding: 3rem;
+}
+
+.intro-btn{
+    background: yellow;
+    border-radius: 20px;
+    padding: 10px
+}
+
+.intro-btns > a{
+    text-decoration: none;
+    color: black;
+}

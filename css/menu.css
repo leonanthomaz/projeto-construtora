@@ -1,0 +1,58 @@
+#menu{
+    height: 70px;
+    padding: 5px;
+}
+
+#logo{
+    display: flex;
+    width: 100px;
+}
+
+#logo > img{
+    width: 100%;
+}
+
+#logo > h1{
+    font-size: 22px;
+}
+
+#logo img{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu-container{
+    display: flex;
+}
+
+.menu-link{
+    list-style: none;
+    margin: 10px;
+}
+
+.menu-link a{
+    text-decoration: none;
+    color: #2e2e2e;
+    transition: all ease 0.2s;
+}
+
+.menu-link a:hover{
+    border-bottom: 5px solid rgb(212, 164, 4);
+    margin: 5px;
+}
+
+.redes_sociais{
+    margin: 10px;
+}
+
+.redes_sociais > i{
+    font-size: 25px;
+    margin: 5px;
+    color: #860606;
+}
