@@ -1,0 +1,31 @@
+
+@media(max-width: 760px){
+
+    #icon{
+        visibility: visible;
+    }
+    
+    #menu-left{
+        display: none;
+    }
+    
+    .menu-container{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #e7e7e7;
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    .menu-center.active .menu-container {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+      }
+}

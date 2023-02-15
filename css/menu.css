@@ -1,33 +1,42 @@
 #menu{
     height: 70px;
     padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#logo{
+#icon{
+    visibility: hidden;
+}
+
+#menu-left{
     display: flex;
     width: 100px;
 }
 
-#logo > img{
+
+.menu-logo > img{
     width: 100%;
 }
 
-#logo > h1{
-    font-size: 22px;
-}
-
-#logo img{
+.menu-logo img{
     width: 100%;
-}
-
-.menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
 }
 
 .menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-wrapper{
     display: flex;
 }
 
@@ -51,7 +60,7 @@
     margin: 10px;
 }
 
-.redes_sociais > i{
+.menu-right > i{
     font-size: 25px;
     margin: 5px;
     color: #860606;
