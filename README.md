@@ -1,5 +1,7 @@
 # Projeto Construtora
 
+### 👷‍♂️🧱 Projeto em andamento
+
 Projeto landing page de uma construtora criado por [Leonan Thomaz](https://leonanthomaz.vercel.app/)
 
 ## 🖥️ Tecnologias
